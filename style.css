@@ -1,0 +1,37 @@
+body{
+    background-color: white;
+}
+header{
+    background-color: orange;
+    color: black;
+}
+nav{
+    margin-top: 10px;
+    background-color: lightpink;
+}
+
+  .container {
+    display: flex;
+    /* Ensures article and aside are side by side */
+  }
+  
+  article {
+    flex: 1; /* Makes the article take remaining space */
+    background-color: lightblue; 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  aside {
+    width: 30%; 
+    background-color: lightgreen; 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  section{
+    background-color: blue;
+    width: 50%;
+}
+  footer{
+    background-color: blueviolet;
+  }
